@@ -42,6 +42,7 @@ public class CanonRotation : MonoBehaviour
         CalculateBarScale();
     }
 
+
     public void CalculateBarScale()
     {
         PotencyBar.transform.localScale = new Vector3(Mathf.Lerp(0, initialScaleX, ProjectileSpeed / MaxSpeed),
